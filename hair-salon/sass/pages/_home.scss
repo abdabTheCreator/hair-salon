@@ -1,0 +1,73 @@
+.header{
+    width:100%;
+    height:100vh;
+    font-size: 2rem;
+    &__container{
+        width:100%;
+        height:100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 1;
+        &--1{
+            opacity: 1;
+            transition: all 3s;
+        }
+    }
+    &__content{
+        position: absolute;
+        top:15rem;
+        right:5rem;
+        padding:2rem;
+    }
+}
+//////////////////////////////////
+//TRANSFORM SLIDES
+.next-slide{
+    font-size: 15rem;
+    color: var(--color-pink-neon);
+    position: absolute;
+    z-index: 10;
+}
+.next-slide:hover + .header__container--1{
+    transform: translateY(-200%);
+    opacity: 0;
+}
+
+/////////////////////////////////
+.section-professional{
+    padding: .5rem 0rem;
+    margin-bottom: 1rem;
+
+}
+.meet-the-team{
+    padding:5rem;
+}
+.find-us{
+    position: relative;
+}
+.goldwell, .bedhead, .redken{
+    margin: 1rem;
+}
+
+.animate-slide{
+    animation: slide 5s infinite ease-in-out;
+}
+
+/*
+@keyframes bgChange{
+    0%{
+        opacity:1 ;
+    }
+    50%{
+        background-image: url("../img/hair-curly.png");
+        background-size: cover;
+        background-position: top;
+        width:100%;
+        height: 100%;
+
+    }
+    100%{
+        background-image: url("../img/mainImageDark.jpg");
+    }
+}
+*/

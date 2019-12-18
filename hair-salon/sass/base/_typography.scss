@@ -1,0 +1,50 @@
+.primary-heading{
+    font-size: 4rem;
+    color:var(--color-white);
+    text-transform: uppercase;
+    font-weight: 400;
+    &--color{
+        color: var(--color-blue-neon);
+    }
+     &--main{
+         display: block;
+    }
+    &--sub{
+        display: block;
+        font-size: 3rem;
+        color:var(--color-text-default-dark);
+        letter-spacing: 9px;  
+        margin-bottom:4rem;
+    }
+    &--animate{
+        animation: animateText 6s  infinite ease-in-out;
+        margin-right: 1.7rem;
+    }
+}
+.secondary-heading{
+    font-size: 2.2rem;
+    color:var(--color-pink-neon);
+    font-weight: 400;
+}
+.tertiary-heading{
+    font-size: 1.3rem;
+    color: var(--color-primary);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+.quaternary-heading{
+    font-size: 1.3rem;
+    color: var(--color-blue-neon);
+    font-weight: 500;
+}
+.quinary-heading{
+    font-size: 1.3rem;
+    color: var(--color-pink-neon);
+    font-weight: 400;
+
+
+}
+.paragraph{
+    font-size: 1.1rem;
+}

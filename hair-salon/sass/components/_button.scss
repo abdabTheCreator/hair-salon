@@ -1,0 +1,37 @@
+.btn{
+    text-decoration: none;
+    padding: 0rem 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+
+    &--blue{
+        color:var(--color-blue-neon);
+        border:3px solid var(--color-blue-neon);
+        transition: all .3s;
+
+        &:hover{
+            animation: blueSwirl-border 3s infinite ease-in-out;
+        }
+        
+    }
+    &--small{
+        padding:0rem;
+    }
+
+
+}
+
+@keyframes blueSwirl-border{
+    0%{
+        border-color:(--color-blue-neon);
+    }
+    20%{
+        border-color: rgb(54, 54, 219);
+    }
+    60%{
+        border-color:rgb(228, 42, 228);
+    }
+    100%{
+        border-color:(--color-blue-neon);
+    }
+}

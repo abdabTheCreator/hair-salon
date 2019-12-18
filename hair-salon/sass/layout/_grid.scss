@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    position: relative;
+    &__3x4{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr repeat(4, 5vw);
+        grid-gap: 2rem;
+    }
+
+    &__span-all{
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+
+    
+    
+}

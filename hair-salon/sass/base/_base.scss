@@ -1,0 +1,30 @@
+:root{
+  --color-primary:#001425;
+  --color-blue-neon:#56D2CE;
+  --color-pink-neon:#F38C8C;
+  --color-text-default:#888787;
+  --color-text-default-dark:#6e6d6d;
+
+  --color-white:#fff;
+
+  --margin-btm-SML: 2rem;
+
+}
+
+*, *::after, *::before{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+  }
+  html{
+    font-size: 1vw;
+    overflow-x: hidden;
+
+  }
+
+  body{
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    color: var(--color-text-default);
+
+  }

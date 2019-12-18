@@ -1,0 +1,40 @@
+@keyframes slide{
+    0%{
+        transform: translateX(100%);
+    }
+    50%{
+        transform: translateX(0%);
+    }
+    60%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+
+}
+@keyframes blueSwirl-border{
+    0%{
+        border-color:(--color-blue-neon);
+    }
+    20%{
+        border-color: rgb(54, 54, 219);
+    }
+    60%{
+        border-color:rgb(228, 42, 228);
+    }
+    100%{
+        border-color:(--color-blue-neon);
+    }
+}
+@keyframes animateText{
+    0%{
+        color:white;
+    }
+    20%{
+        color:rgb(54, 54, 219);
+    }
+    60%{
+        color:rgb(228, 42, 228);
+    }
+}
